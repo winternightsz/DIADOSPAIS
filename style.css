@@ -13,6 +13,16 @@
     --btnlight-color: rgb(73, 73, 211);
     --msg-color: white;
 }
+
+html::-webkit-scrollbar {
+    width: 0.5rem;
+    background: var(--bg-color);
+  }
+  html::-webkit-scrollbar-thumb {
+    background: var(--btn-color);
+    border-radius: 5rem;
+  }
+
 body {
 	font-family: 'Exo 2', sans-serif;
     background-color: var(--bgcolor-color);
